@@ -19,7 +19,7 @@ import {
   Code,
   ArrowUp,
   Sparkle,
-  Activity,
+  ActivityIcon as Activity,
 } from '@phosphor-icons/react'
 import { usePasswordStrength } from '@/hooks/use-password-strength'
 import { createClient } from '@/utils/supabase/client'
