@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input'
 import { Checkbox } from '@/components/ui/checkbox'
 import { cn } from '@/lib/utils'
 import {
-  Envelope,
+  Mailbox,
   Lock,
   Eye,
   EyeSlash,
@@ -228,7 +228,7 @@ export function AuthScreen() {
           {isVerificationSent ? (
             <div className="text-center space-y-10 animate-in fade-in zoom-in-95 duration-700">
               <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-3xl bg-amber-500/10 border border-amber-500/20 text-amber-500 shadow-2xl shadow-amber-500/10">
-                <Envelope className="h-12 w-12" weight="fill" />
+                <Mailbox className="h-12 w-12" weight="fill" />
               </div>
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-white tracking-tight">Check your Neural Link</h2>
@@ -310,7 +310,7 @@ export function AuthScreen() {
                   <div className="space-y-3">
                     <label htmlFor="email" className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest px-1">Neural Address</label>
                     <div className="relative group/field">
-                      <Envelope className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-600 group-focus-within/field:text-amber-500 transition-colors" />
+                      <Mailbox className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-600 group-focus-within/field:text-amber-500 transition-colors" />
                       <Input
                         id="email"
                         type="email"
