@@ -1,0 +1,19 @@
+Alright here's What Needs Attention
+1. The AI Suggestion should not live at the bottom
+Right now it's beneath three GitHub issues and barely visible. That suggestion is the first thing a returning developer should see — above the intent box, above Quick Start, above everything. Move it up as a highlighted banner-card directly below the greeting. It's the briefing. It's the whole point.
+2. The intent box needs a session history anchor
+When a developer types in the intent box, there's no signal that this has been done before. A faint ghost suggestion showing their last intent ("Last session: Fixing the GATT null return") would create immediate continuity and reduce the blank-page paralysis.
+3. The sidebar when in a session vs. not in a session
+You mentioned the links change when in a session. That transition needs to feel intentional, not like a bug or a page refresh. When a session starts, the sidebar should visually shift — maybe the green dot on Weird Stuff Feed pulses, the Pomodoro timer appears quietly in the sidebar somewhere, and the session intent is shown as a small sub-label under the project name. The developer should always be able to see "what session am I in right now" without navigating anywhere.
+4. The "Activity" nav item needs definition
+Right now it's a placeholder-feeling label. Activity should clearly mean Session History + Commit Timeline — and when the bug is fixed, that history needs to tell a story, not just list timestamps. Each session entry should show the declared intent + how many logs + how many commits + whether it was resolved.
+5. The orange is doing a lot of heavy lifting
+Orange is energetic and distinctive but it's being used for the logo, the primary button, the username highlight, the CTA, and accent dots all at once. Consider reserving the full orange for primary actions only (the Start Session button, New Session button) and using a slightly muted amber for informational accents like the username highlight and Quick Start icons. Right now everything feels equally important, which means nothing is.
+6. The Brainstormer in the sidebar
+It's listed as a nav item but there's no indication of what state it's in or whether it has anything in it. A small indicator — even a faint number badge or a subtle label like "3 ideas logged" — would make it feel alive rather than an empty room.
+7. The project manager is not laid out like other pages its not on the left and not fitting the screen its like a component dragged inside and its trying to fit but not. It should fit the screen and be on the left side of the screen like other pages
+8. And Each time i click on a poject am greeted the same modal of like "Declare your intent" when i could have just clicked on the project to see if there was an active session going on. So if there is an active session i should be able to see it without being greeted with the modal. AND the project should update its self to show that there is an active session going on.
+
+What's Landing Really Well
+The product personality is coherent. The orange + dark + sparkle icon creates a recognizable identity. The GitHub issues showing in real context is not just a feature — it signals to developers that this tool actually reads their repo, which builds trust immediately. The "What are we building today?" copy is warmer and more human than anything a typical developer tool would use. That tone is an asset — protect it.
+The foundation here is genuinely strong. The shape of the app is right. The work from here is about hierarchy, sequencing, and making the AI intelligence feel like the protagonist rather than a footnote.
